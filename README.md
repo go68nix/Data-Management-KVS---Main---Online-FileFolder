@@ -1,2 +1,2 @@
 # Data-Management-KVS---Main---Online-FileFolder
-This project extends a local file folder system into an online client-server model using Flask for the server-side implementation. The system ensures secure file management by associating each file with a user ID (uid) and content (content)
+This project extends a local file folder system into an online client-server model using Flask for the server-side implementation. The system ensures secure file management by associating each file with a user ID (uid) and content (content). The server API handlers (api.py) support CRUD (Create, Read, Update, Delete) actions on these files, enforcing strict access control to prevent unauthorized access between users.
